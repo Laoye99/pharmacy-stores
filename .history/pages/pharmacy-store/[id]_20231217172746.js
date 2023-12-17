@@ -145,7 +145,6 @@ const PharmacyStore = (initialProps) => {
         <div className={styles.layout}>
         <Head>
         <title>{name}</title>
-        <meta name="description" content ={`${name} pharmacy store` }></meta>
         </Head>
     <div className={styles.container}>
     <div className={styles.col1}>
@@ -175,12 +174,12 @@ const PharmacyStore = (initialProps) => {
     </div>)
     }
     {locality && (<div className={styles.iconWrapper}>
-    <Image src="/static/icons/nearMe.svg" width="24" height="24" alt="near me icon"/>
+    <Image src="/static/icons/nearMe.svg" width="24" height="24" alt=""/>
     <p className={styles.text}>{locality}</p>
     </div>)
     }
     <div className={styles.iconWrapper}>
-    <Image src="/static/icons/star.svg" width="24" height="24" alt="star icon"/>
+    <Image src="/static/icons/star.svg" width="24" height="24"/>
     <p className={styles.text}>{votingCount}</p>
     </div>
 

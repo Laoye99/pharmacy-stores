@@ -62,7 +62,7 @@ export default function Home(props) {
       <Head>
         <title>Pharma Find</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name="description" content ="For discovering pharmacy stores"></meta>
+        <m
       </Head>
       <main className={styles.main}>
         <Banner
