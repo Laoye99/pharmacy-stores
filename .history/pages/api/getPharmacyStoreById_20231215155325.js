@@ -1,0 +1,3 @@
+const getPharmacyStoresById = (req, res) => {
+    
+}
