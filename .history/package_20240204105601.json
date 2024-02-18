@@ -6,11 +6,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    
-    "start": "next start",
-    "lint": "next lint",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+   "deploy": "gh-pages -d build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "airtable": "^0.12.2",
